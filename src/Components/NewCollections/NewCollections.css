@@ -1,0 +1,38 @@
+.new-collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 0vh;
+    margin-left: 67px;
+}
+    
+    
+.new-collection h1{
+    margin-top: 20px;
+    color: black;
+    font: 50px;
+    font-weight: 600;
+    margin-left:-250px;
+    white-space: nowrap;
+    
+}
+    
+.new-collection hr{
+    width:200px;
+    height: 25px;
+    border-radius: 20px;
+    background: #130101;
+    align-items: center;
+    justify-content: center;
+    margin-left:-250px;
+
+}
+    
+.collections{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+        margin: 50px;
+        gap: 10px;
+        margin-left: -170px;
+}
